@@ -55,7 +55,8 @@ const car = {
 };
 
 function carAge(x) {
-  console.log(x);
+  let data = new Date();
+  console.log(data.getFullYear() - x);
 }
 
 carAge(car.year);
